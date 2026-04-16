@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class IntegerProblem2 {
+    public static void main(String[] args){
+
+        Scanner sc = new Scanner(System.in);
+        
+
+        int t = sc.nextInt();
+        sc.nextLine();
+
+        while (t-- > 0) {
+
+            int n = sc.nextInt();  
+            sc.nextLine();
+            System.out.println(n);
+        }
+    }
+    
+}
